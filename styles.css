@@ -1,0 +1,226 @@
+  body {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    color: #3f3f3f;
+  }
+  
+  h1 {
+    font-weight: bolder;
+    font-size: 350%;
+  }
+
+  h2 {
+    font-weight: bold;
+    margin-bottom: 22px;
+  }
+
+  h3, h4 {
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  p {
+    line-height: 1.2;
+    font-size: 1.2rem;
+  }
+
+  /* Remove underline for hyperlinks */
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  /* Styling news updates and thesis updates */
+
+  .lg-items {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .lg-text-pd {
+    margin: 32px auto;
+  }
+
+  .sm-items {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sm-block {
+    margin: 30px auto;
+  }
+
+  /* Sections background and top-bottom padding */
+
+  #banner, #learning {
+    background-color: #d7d7d7;
+  }
+
+  #articles {
+    background-color: #ffffff;
+  }
+
+
+  /* Navigation Bar Customization */
+
+  .txt-logo {
+    font-family: 'Jost', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+  }
+
+  nav li {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+  }
+
+  .mini-menu-size{
+    display: inline-flex;
+    margin-top: 10px;
+    width: 80%;
+    justify-content: space-around;
+    
+  }
+
+  /* Banner */
+
+  .frame-container, .switch-container {
+    padding: 32px 64px;
+  }
+
+  .news-container {
+    padding: 0 3% 6% 3%;
+    align-items: center;
+  }
+
+  .motto{
+    margin: 25% 10%;
+  }
+
+  .p-title{
+    font-size: 24px;  
+  }
+
+  .long-button{
+    padding: 8px 35%;
+    transition-duration: 0.4s;
+    background-color: #555555;
+    color: white;
+    border: 0;
+    font-size: 18px;
+  }
+  
+  .long-button:hover {
+    background-color: black; 
+    color: white;
+  }
+
+  #banner-text button {
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 0px;
+    margin-top: 24px;
+  }
+
+
+  /* Start Learning */
+  .card-padding{
+    margin: 15px;
+    background-color: white;
+  }
+ 
+  .g-custom{
+    --bs-gutter-x: 0px;
+  }
+
+  .courses-headings{
+  margin: 18px 16px 0 16px;
+  }
+
+  .courses-details{
+  margin: 0 16px 36px 16px;
+  height: 125px;
+  }
+
+
+
+  
+  @media (max-width: 992px) {
+
+    .motto{
+      margin: 10% 10%;
+    }
+
+    .lg-items {
+      padding: 0;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+
+    .sm-items{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    }
+
+    .news-container{
+      padding: 3% ;
+    }
+
+    .articles-container{
+      padding: 0;
+    }
+
+    .switch-container{
+      padding: 0;
+    }
+
+    #learning {
+      background-color: white;
+    }
+
+    .card-padding{
+      background-color: #d7d7d7;
+    }
+
+    .card-padding:hover {
+      background-color: #555555; 
+      color: white;
+    }
+
+    }
+
+
+  /* section 4 Thesis */
+
+  .VDO-scr{
+    width: 100%;
+  }
+
+  /* footer */
+
+  .footer-adjust {
+    display: inline-flex;
+    position: absolute;
+  }
+
+
+  
